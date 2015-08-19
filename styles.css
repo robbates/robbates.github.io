@@ -1,0 +1,173 @@
+nav {
+	background-color: #7F8282;
+	font-color: red;
+	text-transform: capitalize;
+	transition-property: background;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+}
+
+.nav:hover {
+	background: #0038ff;
+}
+
+div {
+	background-color: #000000;
+}
+body {
+	background size: 100%;
+	background-color: #eeeeee;
+	background-position: center, absolute;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	font-weight: lighter;
+	letter-spacing: -2px;
+	letter-spacing: normal;
+	word-spacing: 30px
+	line: 2em;
+	text-align: center;
+	color: #4992D3;
+	margin: 0 auto;
+}
+ul {
+	padding: 5px;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	font-weight: thin;
+	text-transform: uppercase;
+}
+
+img {
+	margin: 20px 0px 0px 0px;
+}
+
+.header h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	margin-bottom: 0 auto;
+	text-align: center;
+	padding: 20px;
+	color: #F3F5F6;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: red;
+}
+
+a:active; {
+	color: red;
+}
+a:hover; {
+	color: red;
+}
+a {
+	color: white;
+	font-size: 14px;
+ 	font-style: normal;
+ 	font-variant: no-underline;
+}
+
+p {
+ 	font-size: 12px;
+ 	margin: 0 auto;
+}
+
+footer {
+ 	text-align: center;
+ 	font-weight: lighter;
+ 	font-size: 1.2em;
+ 	margin: 0 auto;
+ 	background-color: black;
+ 	font-family: helvetica;
+ }
+
+
+@media (max-width: 500px) {
+    h1 { 
+    	font-size: 36px;
+    	text-transform: lighter;
+    }
+    li {
+    	display: block;
+    	padding: 5px;
+    }
+}
+
+input[type="submit"] {
+ 	background: red;
+ 	color: white;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-weight: lighter;
+ 	margin: 5px 5px;
+ 	padding: 8px 30px;
+}
+div table"{
+    position: relative;
+    padding-left: 100%;
+}
+input {
+ 	border: 0px;
+ 	padding: 8px;
+ 	font-size: 13px;
+}
+
+#main_1 {
+	background-color: black;
+	background-image: url("6ghgesn.jpg");
+	padding: 290px 0px;
+	width: 100%
+}
+
+#main_2 {
+	padding: 150px 0px;
+	font-family: 'Oswald', sans-serif;	
+	background-color: #C8DDF7;
+}
+
+#main_3 {
+	background-color: #ECECEC;
+	/*background-size: 100%;/
+	/*background-image: url("sunset.jpg");*/
+	padding: 400px 0px;
+	font-family: 'Oswald', sans-serif;	
+}
+
+#VolContent {
+	margin: 10px 200px;
+	padding: 50px 100px;
+	background-color: #C8DDF7;
+}
+
+#VolContent2 {
+	margin: 0 200px;
+	padding: 50px 100px;
+	background-color: #ECECEC;
+}
+
+#minicase1 {
+	padding: 50px 10px;
+	margin: 0 200px;
+}
+
+#minicase2 {
+	background-color: black;
+	padding: 100px 0px;
+}
+
+#lefty {
+	float: left;
+	margin: 0px 100px;
+	text-align: left;
+}
+
+#righty {
+
+}
+
